@@ -1,0 +1,13 @@
+Available sheets:               
+dict_keys(['Students', 'Courses'])
+Student sheet:
+   Roll_No      Name Department  Percentage
+0      101    Anusha         IT          89
+1      102   Babitha         IT          92
+2      103  Charitha        CSE          88
+3      104   Deepika        ECE          85
+Course sheet:
+  Course_ID       Course_Name  Credits
+0      C101            Python        4
+1      C102      Data Science        3
+2      C103  Machine Learning        4
