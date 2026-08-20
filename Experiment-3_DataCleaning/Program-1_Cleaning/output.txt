@@ -1,0 +1,10 @@
+       A      B
+0  False  False
+1  False   True
+2   True   True
+     A    B
+0  1.0  4.0
+     A    B
+0  1.0  4.0
+1  2.0  0.0
+2  0.0  0.0
