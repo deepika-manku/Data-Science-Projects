@@ -1,0 +1,11 @@
+Original Period: 2026-01
+
+Monthly Period converted to Daily (Start): 2026-01-01
+
+Monthly Period converted to Daily (End): 2026-01-31
+
+Original PeriodIndex: PeriodIndex(['2026-01', '2026-02', '2026-03'], dtype='period[M]')
+
+PeriodIndex converted to Daily Frequency: PeriodIndex(['2026-01-01', '2026-02-01', '2026-03-01'], dtype='period[D]')
+
+PeriodIndex converted to Daily Frequency (End): PeriodIndex(['2026-01-31','2026-02-28', '2026-03-31'], dtype='period[D]')

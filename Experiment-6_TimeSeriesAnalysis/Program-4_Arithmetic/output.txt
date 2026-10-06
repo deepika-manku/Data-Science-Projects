@@ -1,0 +1,17 @@
+Original Period:
+2026-01
+
+After adding 1:
+2026-02
+
+After adding 3:
+2026-04
+
+After subtracting 1:
+2025-12
+
+After subtracting 2:
+2025-11
+
+Range of Periods:
+PeriodIndex(['2026-01', '2026-02', '2026-03', '2026-04', '2026-05','2026-06'], dtype='period[M]')

@@ -1,0 +1,28 @@
+1. Date Range with Asia/Kolkata Time Zone:
+DatetimeIndex(['2026-01-01 09:00:00+05:30', '2026-01-01 10:00:00+05:30'], dtype='datetime64[ns, Asia/Kolkata]', freq='h')
+
+2. Timezone-naive Date Range:
+DatetimeIndex(['2026-01-01 09:00:00', '2026-01-01 10:00:00'], dtype='datetime64[ns]', freq='h')
+
+3. After Localizing to Asia/Kolkata:
+DatetimeIndex(['2026-01-01 09:00:00+05:30', '2026-01-01 10:00:00+05:30'], dtype='datetime64[ns, Asia/Kolkata]', freq=None)
+
+4. Converted to America/New_York:
+DatetimeIndex(['2025-12-31 22:30:00-05:00', '2025-12-31 23:30:00-05:00'], dtype='datetime64[ns, America/New_York]',freq=None)
+
+5. India Time Series:
+2026-01-01 09:00:00+05:30    20
+2026-01-01 10:00:00+05:30    30
+dtype: int64
+
+ New York Time Series:
+2025-12-31 22:30:00-05:00    40
+2025-12-31 23:30:00-05:00    50
+dtype: int64
+
+6. Combined Time Series:
+2026-01-01 09:00:00+05:30    20
+2026-01-01 10:00:00+05:30    30
+2025-12-31 22:30:00-05:00    40
+2025-12-31 23:30:00-05:00    50
+dtype: int64

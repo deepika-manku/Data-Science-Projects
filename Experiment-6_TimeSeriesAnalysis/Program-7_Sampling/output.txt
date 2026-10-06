@@ -1,0 +1,29 @@
+Original Hourly Time Series:
+2026-10-23 00:00:00     8
+2026-10-23 01:00:00     9
+2026-10-23 02:00:00    10
+Freq: h, dtype: int64
+
+Resampled Time Series - 3 Hour Mean:
+2026-10-23    9.0
+Freq: 3h, dtype: float64
+
+Downsampled Time Series - 4 Hour Mean:
+2026-10-23    9.0
+Freq: 4h, dtype: float64
+
+Upsampled Time Series - 30 Minute:
+2026-10-23 00:00:00     8.0
+2026-10-23 00:30:00     NaN
+2026-10-23 01:00:00     9.0
+2026-10-23 01:30:00     NaN
+2026-10-23 02:00:00    10.0
+Freq: 30min, dtype: float64
+
+Upsampled Time Series with Forward Fill:
+2026-10-23 00:00:00     8
+2026-10-23 00:30:00     8
+2026-10-23 01:00:00     9
+2026-10-23 01:30:00     9
+2026-10-23 02:00:00    10
+Freq: 30min, dtype: int64

@@ -1,0 +1,23 @@
+Original Series:
+2026-02-19    1000
+2026-09-25    2000
+2026-10-23    3000
+dtype: int64
+
+Series converted to Monthly Periods:
+2026-02    1000
+2026-09    2000
+2026-10    3000
+Freq: M, dtype: int64
+
+Original DataFrame:
+            Sales  Profit
+2026-02-19   1000     200
+2026-09-25   2000     300
+2026-10-23   3000     400
+
+DataFrame converted to Monthly Periods:
+         Sales  Profit
+2026-02   1000     200
+2026-09   2000     300
+2026-10   3000     400
