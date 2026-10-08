@@ -1,0 +1,15 @@
+Original DataFrame:
+  Department  Marks  Attendance
+0        CSE     80          90
+1        CSE     75          85
+2        CSE     85          95
+3        ECE     70          80
+4        ECE     65          75
+5        ECE     75          85
+
+Summary Statistics:
+           Marks            Attendance           
+             sum  mean  std        sum  mean  std
+Department                                       
+CSE          240  80.0  5.0        270  90.0  5.0
+ECE          210  70.0  5.0        240  80.0  5.0

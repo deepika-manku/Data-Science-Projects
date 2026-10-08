@@ -1,0 +1,42 @@
+Original DataFrame:
+      Name Department  Year  Marks
+0    Kiree        CSE     2     85
+1  Deepika        CSE     2     90
+2  Jahnavi        ECE     3     78
+3   Afreen        ECE     3     88
+
+1. Group by Department:
+
+Department: CSE
+      Name Department  Year  Marks
+0    Kiree        CSE     2     85
+1  Deepika        CSE     2     90
+
+Department: ECE
+      Name Department  Year  Marks
+2  Jahnavi        ECE     3     78
+3   Afreen        ECE     3     88
+
+Average Marks by Department:
+Department
+CSE    87.5
+ECE    83.0
+Name: Marks, dtype: float64
+
+2. Group by Department and Year:
+
+Group: ('CSE', np.int64(2))
+      Name Department  Year  Marks
+0    Kiree        CSE     2     85
+1  Deepika        CSE     2     90
+
+Group: ('ECE', np.int64(3))
+      Name Department  Year  Marks
+2  Jahnavi        ECE     3     78
+3   Afreen        ECE     3     88
+
+Average Marks by Department and Year:
+Department  Year
+CSE         2       87.5
+ECE         3       83.0
+Name: Marks, dtype: float64

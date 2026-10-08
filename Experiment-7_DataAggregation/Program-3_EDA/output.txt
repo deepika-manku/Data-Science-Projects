@@ -1,0 +1,97 @@
+First 5 Records:
+   sepal_length  sepal_width  petal_length  petal_width species
+0           5.1          3.5           1.4          0.2  setosa
+1           4.9          3.0           1.4          0.2  setosa
+2           4.7          3.2           1.3          0.2  setosa
+3           4.6          3.1           1.5          0.2  setosa
+4           5.0          3.6           1.4          0.2  setosa
+
+Dataset Information:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 150 entries, 0 to 149
+Data columns (total 5 columns):
+ #   Column        Non-Null Count  Dtype  
+---  ------        --------------  -----  
+ 0   sepal_length  150 non-null    float64
+ 1   sepal_width   150 non-null    float64
+ 2   petal_length  150 non-null    float64
+ 3   petal_width   150 non-null    float64
+ 4   species       150 non-null    object 
+dtypes: float64(4), object(1)
+memory usage: 6.0+ KB
+None
+
+Statistical Summary:
+       sepal_length  sepal_width  petal_length  petal_width
+count    150.000000   150.000000    150.000000   150.000000
+mean       5.843333     3.057333      3.758000     1.199333
+std        0.828066     0.435866      1.765298     0.762238
+min        4.300000     2.000000      1.000000     0.100000
+25%        5.100000     2.800000      1.600000     0.300000
+50%        5.800000     3.000000      4.350000     1.300000
+75%        6.400000     3.300000      5.100000     1.800000
+max        7.900000     4.400000      6.900000     2.500000
+
+1. GroupBy using a Single Column:
+            count    sum   mean       std  min  max
+species                                            
+setosa         50  250.3  5.006  0.352490  4.3  5.8
+versicolor     50  296.8  5.936  0.516171  4.9  7.0
+virginica      50  329.4  6.588  0.635880  4.9  7.9
+
+2. GroupBy using Multiple Columns:
+species  sepal_width
+setosa   2.3            4.500000
+         2.9            4.400000
+         3.0            4.700000
+         3.1            4.800000
+         3.2            4.680000
+         3.3            5.050000
+         3.4            5.033333
+         3.5            5.150000
+         3.6            4.833333
+         3.7            5.266667
+         3.8            5.250000
+         3.9            5.400000
+         4.0            5.800000
+         4.1            5.200000
+         4.2            5.500000
+Name: sepal_length, dtype: float64
+
+3. Summary Statistics:
+           sepal_length                     sepal_width                 ... petal_length           petal_width       
+                   mean       std  min  max        mean       std  min  ...          std  min  max        mean       std  min  max
+species                                                                 ...       
+setosa            5.006  0.352490  4.3  5.8       3.428  0.379064  2.3  ...     0.173664  1.0  1.9       0.246  0.105386  0.1  0.6
+versicolor        5.936  0.516171  4.9  7.0       2.770  0.313798  2.0  ...     0.469911  3.0  5.1       1.326  0.197753  1.0  1.8
+virginica         6.588  0.635880  4.9  7.9       2.974  0.322497  2.2  ...     0.551895  4.5  6.9       2.026  0.274650  1.4  2.5
+
+[3 rows x 16 columns]
+
+4. Number of Records in Each Species:
+species
+setosa        50
+versicolor    50
+virginica     50
+Name: count, dtype: int64
+
+Average Petal Length by Species:
+species
+setosa        1.462
+versicolor    4.260
+virginica     5.552
+Name: petal_length, dtype: float64
+
+Average Petal Width by Species:
+species
+setosa        0.246
+versicolor    1.326
+virginica     2.026
+Name: petal_width, dtype: float64
+
+Maximum Sepal Length by Species:
+species
+setosa        5.8
+versicolor    7.0
+virginica     7.9
+Name: sepal_length, dtype: float64
