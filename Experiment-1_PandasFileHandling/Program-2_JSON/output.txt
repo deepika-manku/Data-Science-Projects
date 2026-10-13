@@ -1,0 +1,24 @@
+JSON file written successfully!
+
+Data read from JSON file:
+   Roll_No     Name Department  Marks
+0      101   Anusha         IT     89
+1      102  Babitha        CSE     92
+2      103  Deepika        ECE     85
+
+Parsed JSON Data:
+   Roll_No      Name  Marks
+0      104  Charitha     88
+1      105    Harika     90
+
+Online JSON Dataset:
+   id              name  ...        website                                            company
+0   1     Leanne Graham  ...  hildegard.org  {'name': 'Romaguera-Crona', 'catchPhrase': 'Mu...
+1   2      Ervin Howell  ...  anastasia.net  {'name': 'Deckow-Crist', 'catchPhrase': 'Proac...
+2   3  Clementine Bauch  ...    ramiro.info  {'name': 'Romaguera-Jacobson', 'catchPhrase': ...
+3   4  Patricia Lebsack  ...       kale.biz  {'name': 'Robel-Corkery', 'catchPhrase': 'Mult...
+4   5  Chelsey Dietrich  ...   demarco.info  {'name': 'Keebler LLC', 'catchPhrase': 'User-c...
+
+[5 rows x 8 columns]
+
+JSON operations completed successfully!

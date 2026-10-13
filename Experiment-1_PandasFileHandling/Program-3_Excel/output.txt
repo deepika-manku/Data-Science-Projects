@@ -1,0 +1,25 @@
+Excel file created successfully!
+
+Data read from Excel file:
+   Roll_No      Name Department  Percentage
+0      101    Anusha         IT          89
+1      102   Babitha         IT          92
+2      103  Charitha        CSE          88
+3      104   Deepika        ECE          85
+
+Multiple Excel sheets created successfully!
+
+Sheet: Students
+   Roll_No      Name Department  Percentage
+0      101    Anusha         IT          89
+1      102   Babitha         IT          92
+2      103  Charitha        CSE          88
+3      104   Deepika        ECE          85
+
+Sheet: Courses
+  Course_ID       Course_Name
+0      C101            Python
+1      C102      Data Science
+2      C103  Machine Learning
+
+Excel operations completed successfully!

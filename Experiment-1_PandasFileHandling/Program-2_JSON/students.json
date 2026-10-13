@@ -1,0 +1,20 @@
+[
+    {
+        "Roll_No":101,
+        "Name":"Anusha",
+        "Department":"IT",
+        "Marks":89
+    },
+    {
+        "Roll_No":102,
+        "Name":"Babitha",
+        "Department":"CSE",
+        "Marks":92
+    },
+    {
+        "Roll_No":103,
+        "Name":"Deepika",
+        "Department":"ECE",
+        "Marks":85
+    }
+]
