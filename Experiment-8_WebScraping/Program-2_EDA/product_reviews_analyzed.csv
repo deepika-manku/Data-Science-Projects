@@ -1,0 +1,7 @@
+Title,Review,Rating,review,sentiment
+Excellent Product,The product quality is very good.,5 Stars,The product quality is very good.,Positive
+Good Experience,Good product at an affordable price.,4 Stars,Good product at an affordable price.,Positive
+Average Quality,The product is okay but could be better.,3 Stars,The product is okay but could be better.,Positive
+Not Satisfied,The product did not meet my expectations.,2 Stars,The product did not meet my expectations.,Neutral
+Poor Quality,The product quality is very poor.,1 Star,The product quality is very poor.,Negative
+Disappointed,I am disappointed with the product.,1 Star,I am disappointed with the product.,Negative

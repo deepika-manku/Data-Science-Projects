@@ -1,0 +1,23 @@
+                                   Review  nltk_compound nltk_sentiment  vader_compound vader_sentiment
+        The product quality is very good.         0.4927       Positive          0.4927        Positive
+     Good product at an affordable price.         0.4404       Positive          0.4404        Positive
+ The product is okay but could be better.         0.6486       Positive          0.6486        Positive
+The product did not meet my expectations.         0.0000        Neutral          0.0000         Neutral
+        The product quality is very poor.        -0.5256       Negative         -0.5256        Negative
+      I am disappointed with the product.        -0.4767       Negative         -0.4767        Negative
+
+NLTK sentiment distribution:
+nltk_sentiment
+Positive    3
+Negative    2
+Neutral     1
+Name: count, dtype: int64
+
+Standalone VADER sentiment distribution:
+vader_sentiment
+Positive    3
+Negative    2
+Neutral     1
+Name: count, dtype: int64
+
+Results saved to sentiment_analysis_results.csv

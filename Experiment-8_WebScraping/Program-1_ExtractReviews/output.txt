@@ -1,0 +1,6 @@
+             Title                                    Review   Rating
+0  Good Experience      Good product at an affordable price.  4 Stars
+1  Average Quality  The product is okay but could be better.  3 Stars
+2     Disappointed       I am disappointed with the product.   1 Star
+Total reviews extracted: 3
+Saved to product_reviews.csv

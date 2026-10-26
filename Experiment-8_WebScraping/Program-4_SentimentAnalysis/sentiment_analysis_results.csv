@@ -1,0 +1,7 @@
+Title,Review,Rating,nltk_positive,nltk_negative,nltk_neutral,nltk_compound,vader_positive,vader_negative,vader_neutral,vader_compound,nltk_sentiment,vader_sentiment
+Excellent Product,The product quality is very good.,5 Stars,0.39,0.0,0.61,0.4927,0.39,0.0,0.61,0.4927,Positive,Positive
+Good Experience,Good product at an affordable price.,4 Stars,0.367,0.0,0.633,0.4404,0.367,0.0,0.633,0.4404,Positive,Positive
+Average Quality,The product is okay but could be better.,3 Stars,0.469,0.0,0.531,0.6486,0.469,0.0,0.531,0.6486,Positive,Positive
+Not Satisfied,The product did not meet my expectations.,2 Stars,0.0,0.0,1.0,0.0,0.0,0.0,1.0,0.0,Neutral,Neutral
+Poor Quality,The product quality is very poor.,1 Star,0.0,0.404,0.596,-0.5256,0.0,0.404,0.596,-0.5256,Negative,Negative
+Disappointed,I am disappointed with the product.,1 Star,0.0,0.437,0.563,-0.4767,0.0,0.383,0.617,-0.4767,Negative,Negative
