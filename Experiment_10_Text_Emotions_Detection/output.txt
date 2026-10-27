@@ -1,0 +1,42 @@
+Model Accuracy: 33.33 %
+
+Classification Report:
+              precision    recall  f1-score   support
+
+       anger       0.00      0.00      0.00         1
+        fear       0.33      1.00      0.50         1
+       happy       0.00      0.00      0.00         1
+        love       1.00      1.00      1.00         1
+     sadness       0.00      0.00      0.00         1
+    surprise       0.00      0.00      0.00         1
+
+    accuracy                           0.33         6
+   macro avg       0.22      0.33      0.25         6
+weighted avg       0.22      0.33      0.25         6
+
+
+----- EMOTION DETECTION RESULTS -----
+
+Input Text: I am happy to see you
+Detected Emotion: love
+Relevant Emoji: ❤️
+
+Input Text: I feel lonely today
+Detected Emotion: sadness
+Relevant Emoji: 😢
+
+Input Text: I love my family
+Detected Emotion: fear
+Relevant Emoji: 😨
+
+Input Text: I am very angry
+Detected Emotion: happy
+Relevant Emoji: 😊
+
+Input Text: I am afraid of the future
+Detected Emotion: fear
+Relevant Emoji: 😨
+
+Input Text: What a wonderful surprise!
+Detected Emotion: happy
+Relevant Emoji: 😊
