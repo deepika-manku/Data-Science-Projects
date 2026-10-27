@@ -1,0 +1,5 @@
+Silhouette Scores: {2: 0.4811241347524294, 3: 0.3970290774895379, 4: 0.36830543242775043, 5: 0.34062159504770945, 6: 0.34227709867700146, 7: 0.26872868005477607}
+                    Income  MntWines  MntFruits  MntMeatProducts  MntFishProducts  MntSweetProducts  MntGoldProds
+Customer_Segment                                                                                                 
+0                 41244.22    145.50       7.42            48.00            10.51              7.35         25.19
+1                 73453.89    610.02      62.77           396.75            89.71             65.16         80.40
